@@ -1,0 +1,25 @@
+
+
+.mainContainer{
+  @apply flex flex-col justify-evenly w-full h-3/4 bg-imgbck rounded-3xl p-10 m-52 lg:flex-row items-center
+}
+
+.inputText{
+  @apply mt-5 bg-darkgrey text-sm p-5 rounded-full h-12 m-2 input w-full max-w-xs justify-center items-center
+}
+
+.inputGroup{
+  @apply flex flex-col justify-center my-14 relative max-w-xs items-center w-full
+}
+
+.button{
+  @apply btn btn-primary bg-cyan-400 m-5 w-full max-w-xs rounded-full text-white text-lg
+}
+
+.profileInput{
+  @apply flex flex-col lg:flex-row w-full h-16 lg:w-2/3 justify-between items-center text-lg text-white text-justify
+}
+
+.profileText{
+  @apply bg-profileInput text-sm p-5 rounded-full h-12 m-2 input w-full max-w-xs justify-center items-center
+}
